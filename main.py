@@ -10,8 +10,8 @@ from googleapiclient.discovery import build
 from pytube import YouTube
 import vlc
 
-openai.api_key = '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'
-API_KEY = "AIzaSyAy4ZTo98sPZGodWTQNWLhqJJsqzDEdc-E"
+openai.api_key = 'none'
+API_KEY = "none"
 
 recognizer = sr.Recognizer()
 
