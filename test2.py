@@ -2,7 +2,7 @@ from googleapiclient.discovery import build
 from pytube import YouTube
 import vlc
 import os
-API_KEY = "AIzaSyAy4ZTo98sPZGodWTQNWLhqJJsqzDEdc-E"
+API_KEY = "none"
 
 def search_youtube_video(title):
     youtube = build('youtube', 'v3', developerKey=API_KEY)
